@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
@@ -201,7 +202,8 @@
     <footer class="footer">
         <div class="container footer-container">
             <div class="footer-left">
-                <a class="logo-footer link" href="./index.html" title="WebStudio">Web<span class="logo-theme-dark">Studio</span></a>
+                <a class="logo-footer link" href="./index.html" title="WebStudio">Web<span
+                        class="logo-theme-dark">Studio</span></a>
                 <address class="address-footer">
                     <ul class="address-footer-list list">
                         <li class="address-footer-item"><a class="address-footer-item-link address-map link"
@@ -214,7 +216,7 @@
                 </address>
             </div>
             <div class="footer-social-link">
-                <h3 class="footer-social-link-title">присоединяйтесь</h3>
+                <p class="footer-social-link-title">присоединяйтесь</p>
                 <ul class="footer-social-list list">
                     <li class="footer-social-list-item">
                         <a href="" class="footer-social-list-link">
@@ -245,6 +247,20 @@
                         </a>
                     </li>
                 </ul>
+            </div>
+            <div class="footer-subscribe">
+                <p class="footer-subscribe-title">подпишитесь на рассылку</p>
+                <form name="subscribe-form" class="footer-subscribe-form">
+                    <label class="footer-subscribe-enter-email visually-hidden">Введите ваш имейл</label>
+                    <span class="footer-subcribe-elements">
+                        <input type="email" name="email" placeholder="E-mail" class="footer-subscribe-input" />
+                        <button type="submit" class="footer-subscribe-btn">Подписаться
+                            <svg class="icon-send" width="24" height="24">
+                                <use href="./images/icons.svg#icon-send"></use>
+                            </svg>
+                        </button>
+                    </span>
+                </form>
             </div>
         </div>
     </footer>
