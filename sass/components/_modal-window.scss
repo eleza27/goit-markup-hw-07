@@ -48,6 +48,12 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     cursor: pointer;
+
+    &:hover,
+    &:focus {
+        fill: var(--accent-color);
+    }
+
     /* 
     animation-name: rotate;
     animation-duration: 1000ms;
@@ -65,11 +71,6 @@
         opacity: 1;
     }
 } */
-
-.modal-close-btn:hover,
-.modal-close-btn:focus {
-    fill: var(--accent-color);
-}
 
 .modal-call {
     margin-bottom: 12px;
