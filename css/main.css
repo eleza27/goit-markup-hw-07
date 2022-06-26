@@ -84,11 +84,21 @@ body {
   color: var(--accent-color);
 }
 
-.logo-theme-light {
+.logo-footer {
+  display: block;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.1923076923;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.logo-page-header_theme_light {
   color: #000000;
 }
 
-.logo-theme-dark {
+.logo-footer_theme_dark {
   color: #FFFFFF;
 }
 
@@ -342,11 +352,11 @@ body {
   margin-right: 50px;
 }
 
-.menu-item:not(:last-child) {
+.menu__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.menu-link {
+.menu__link {
   display: block;
   padding-top: 24px;
   padding-bottom: 25px;
@@ -357,15 +367,15 @@ body {
   letter-spacing: 0.02em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.menu-link:hover, .menu-link:focus {
+.menu__link:hover, .menu__link:focus {
   color: var(--accent-color);
 }
 
-.link-current {
+.menu__link-active {
   position: relative;
   color: var(--accent-color);
 }
-.link-current::after {
+.menu__link-active::after {
   position: absolute;
   bottom: -8.5px;
   left: 0;
@@ -815,16 +825,6 @@ body {
 .footer-left {
   margin-right: 70px;
   flex-grow: 1;
-}
-
-.logo-footer {
-  display: block;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.1923076923;
-  font-family: "Raleway", sans-serif;
-  letter-spacing: 0.03em;
-  color: var(--accent-color);
 }
 
 .address-map {

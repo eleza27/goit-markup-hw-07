@@ -10,10 +10,19 @@
     color: var(--accent-color);
 }
 
-.logo-theme-light {
+.logo-footer {
+    display: block;
+
+    @include font(26px, 700, 31px);
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.logo-page-header_theme_light {
     color: #000000;
 }
 
-.logo-theme-dark {
+.logo-footer_theme_dark {
     color: #FFFFFF;
 }

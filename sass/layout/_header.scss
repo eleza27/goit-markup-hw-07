@@ -27,11 +27,11 @@
     margin-right: 50px;
 }
 
-.menu-item:not(:last-child) {
+.menu__item:not(:last-child) {
     margin-right: 50px;
 }
 
-.menu-link {
+.menu__link {
     display: block;
     padding-top: 24px;
     padding-bottom: 25px;
@@ -47,7 +47,7 @@
     }
 }
 
-.link-current {
+.menu__link-active {
     position: relative;
     color: var(--accent-color);
 
