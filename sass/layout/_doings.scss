@@ -5,9 +5,7 @@
 .doings-title {
     margin-bottom: 50px;
 
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
+    @include font(36px, 700, 42px);
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -36,9 +34,7 @@
     bottom: 0;
     left: 0;
 
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+    @include font(14px, 700, 16px);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--third-color);

@@ -5,8 +5,7 @@
     padding-bottom: 25px;
 
     font-family: 'Raleway', sans-serif;
-    @include font(26px, 700, 31px);
-  
+    @include font(26px, 700, 31px);  
     letter-spacing: 0.03em;
     color: var(--accent-color);
 }

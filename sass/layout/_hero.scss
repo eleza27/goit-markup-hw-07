@@ -16,9 +16,7 @@
 .hero-title {
     margin-bottom: 30px;
 
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+    @include font(44px, 900, 60px);
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -33,9 +31,7 @@
     padding: 10px 32px;
 
     font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
+    @include font(16px, 700, 30px);
     letter-spacing: 0.06em;
     cursor: pointer;
     color: var(--third-color);
