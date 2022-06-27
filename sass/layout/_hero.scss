@@ -13,7 +13,7 @@
     background-repeat: no-repeat;
 }
 
-.hero-title {
+.hero__title {
     margin-bottom: 30px;
 
     @include font(44px, 900, 60px);
@@ -22,11 +22,11 @@
     color: #FFFFFF;
 }
 
-.hero-title-part {
+.hero__title-part {
     display: block;
 }
 
-.hero-btn {
+.hero__btn {
     min-width: 200px;
     padding: 10px 32px;
 

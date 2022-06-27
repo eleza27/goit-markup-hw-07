@@ -13,19 +13,17 @@
     align-items: baseline;
 }
 
-.footer-left {
+.footer__side-left {
     margin-right: 70px;
     flex-grow: 1;
 }
 
-
-
-.address-map {
+.address-footer__map {
     color: var(--third-color);
 }
 
-.address-email,
-.address-phone-number {
+.address-footer__email,
+.address-footer__phone-number {
     color: var(--fourth-color);
 }
 
@@ -33,11 +31,11 @@
     margin-top: 20px;
 }
 
-.address-footer-item:not(:last-child) {
+.address-footer__item:not(:last-child) {
     margin-bottom: 9px;
 }
 
-.address-footer-item-link {
+.address-footer__item-link {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-size: 14px;
@@ -51,7 +49,7 @@
     }
 }
 
-.footer-social-link-title {
+.footer__social-link-title {
     margin-bottom: 20px;
 
     font-family: 'Raleway', sans-serif;
@@ -61,20 +59,20 @@
     color: var(--third-color);
 }
 
-.footer-social-link {
+.footer__social-link {
     margin-right: 93px;
 }
 
-.footer-social-list {
+.footer__social-list {
     display: flex;
     align-items: center;
 }
 
-.footer-social-list-item:not(:last-child) {
+.footer__social-list-item:not(:last-child) {
     margin-right: 10px;
 }
 
-.footer-social-list-link {
+.footer__social-list-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,20 +89,20 @@
     }
 }
 
-.social-list-item:not(:last-child) {
+.footer__social-list-item:not(:last-child) {
     margin-right: 10px;
 }
 
-.footer-social-list-icon {
+.footer__social-list-icon {
     fill: var(--third-color);
 }
 
-.footer-subcribe {
+.footer__subcribe {
     display: flex;
     margin-left: auto;
 }
 
-.footer-subscribe-title {
+.footer__subscribe-title {
     margin-bottom: 20px;
 
     font-family: 'Raleway', sans-serif;
@@ -114,12 +112,12 @@
     color: var(--third-color);
 }
 
-.footer-subcribe-elements {
+.footer__subcribe-elements {
     display: flex;
     align-items: center;
 }
 
-.footer-subscribe-input {
+.footer__subscribe-input {
     display: block;
     padding-left: 16px;
     margin-right: 12px;
@@ -147,9 +145,7 @@
     }
 }
 
-
-
-.footer-subscribe-btn {
+.footer__subscribe-btn {
     display: flex;
     align-items: center;
     padding: 10px 28px;

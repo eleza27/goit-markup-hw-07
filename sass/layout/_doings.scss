@@ -2,7 +2,7 @@
     padding-top: 0px;
 }
 
-.doings-title {
+.doings__title {
     margin-bottom: 50px;
 
     @include font(36px, 700, 42px);
@@ -10,20 +10,20 @@
     letter-spacing: 0.03em;
 }
 
-.doings-list {
+.doings__list {
     display: flex;
     justify-content: space-between;
 }
 
-.doings-item:not(:nth-child(3n)) {
+.doings__item:not(:nth-child(3n)) {
     margin-right: 30px;
 }
 
-.doings-item-box {
+.doings__item-box {
     position: relative;
 }
 
-.doings-item-type {
+.doings__item-type {
     display: flex;
     justify-content: center;
     align-items: center;
