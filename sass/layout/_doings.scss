@@ -1,29 +1,19 @@
 .doings {
-    padding-top: 0px;
-}
-
-.doings__title {
-    margin-bottom: 50px;
-
-    @include font(36px, 700, 42px);
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-
-.doings__list {
     display: flex;
     justify-content: space-between;
+
+    list-style: none;
 }
 
 .doings__item:not(:nth-child(3n)) {
     margin-right: 30px;
 }
 
-.doings__item-box {
+.doings__box {
     position: relative;
 }
 
-.doings__item-type {
+.doings__text {
     display: flex;
     justify-content: center;
     align-items: center;

@@ -2,3 +2,15 @@
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
+.section--no-padding-top {
+    padding-top: 0px;
+}
+
+.section__title {
+    margin-bottom: 50px;
+
+    @include font(36px, 700, 42px);
+    text-align: center;
+    letter-spacing: 0.03em;
+}

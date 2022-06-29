@@ -71,6 +71,19 @@ body {
   padding-bottom: 94px;
 }
 
+.section--no-padding-top {
+  padding-top: 0px;
+}
+
+.section__title {
+  margin-bottom: 50px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1666666667;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 .logo {
   display: block;
   margin-right: 93px;
@@ -513,32 +526,20 @@ body {
 }
 
 .doings {
-  padding-top: 0px;
-}
-
-.doings__title {
-  margin-bottom: 50px;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.1666666667;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
-.doings__list {
   display: flex;
   justify-content: space-between;
+  list-style: none;
 }
 
 .doings__item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
 
-.doings__item-box {
+.doings__box {
   position: relative;
 }
 
-.doings__item-type {
+.doings__text {
   display: flex;
   justify-content: center;
   align-items: center;
