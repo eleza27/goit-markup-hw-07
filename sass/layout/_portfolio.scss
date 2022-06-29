@@ -1,15 +1,17 @@
-.section-filter-list {
+.filter {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     margin-bottom: 50px;
+
+    list-style: none;
 }
 
-.section-filter-item:not(:nth-child(5n)) {
+.filter__item:not(:nth-child(5n)) {
     margin-right: 8px;
 }
 
-.section-filter-button {
+.filter__button {
     padding: 6px 22px;
 
     font-family: inherit;

@@ -103,7 +103,7 @@ body {
   color: var(--accent-color);
 }
 
-.logo-footer {
+.logo__footer {
   display: block;
   font-size: 26px;
   font-weight: 700;
@@ -117,7 +117,7 @@ body {
   color: #000000;
 }
 
-.logo-footer_theme_dark {
+.logo__light {
   color: #FFFFFF;
 }
 
@@ -664,18 +664,19 @@ body {
   fill: var(--accent-color);
 }
 
-.section-filter-list {
+.filter {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   margin-bottom: 50px;
+  list-style: none;
 }
 
-.section-filter-item:not(:nth-child(5n)) {
+.filter__item:not(:nth-child(5n)) {
   margin-right: 8px;
 }
 
-.section-filter-button {
+.filter__button {
   padding: 6px 22px;
   font-family: inherit;
   font-size: 16px;
@@ -688,7 +689,7 @@ body {
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.section-filter-button:hover, .section-filter-button:focus {
+.filter__button:hover, .filter__button:focus {
   background-color: var(--background-accent-color);
   color: var(--third-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
