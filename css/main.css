@@ -71,7 +71,7 @@ body {
   padding-bottom: 94px;
 }
 
-.logo-page-header {
+.logo {
   display: block;
   margin-right: 93px;
   padding-top: 24px;
@@ -94,7 +94,7 @@ body {
   color: var(--accent-color);
 }
 
-.logo-page-header_theme_light {
+.logo__dark {
   color: #000000;
 }
 
@@ -327,7 +327,7 @@ body {
   border-bottom: 1px solid #ECECEC;
 }
 
-.page-header-container {
+.page-header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -371,11 +371,11 @@ body {
   color: var(--accent-color);
 }
 
-.menu__link-active {
+.menu__link--active {
   position: relative;
   color: var(--accent-color);
 }
-.menu__link-active::after {
+.menu__link--active::after {
   position: absolute;
   bottom: -8.5px;
   left: 0;
