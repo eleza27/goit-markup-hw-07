@@ -84,6 +84,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+.section--our-background {
+  background-color: #F5F4FA;
+}
+
 .logo {
   display: block;
   margin-right: 93px;
@@ -518,7 +522,7 @@ body {
   text-transform: uppercase;
 }
 
-.advantages__descr {
+.advantages__description {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -558,19 +562,6 @@ body {
 }
 
 .our-team {
-  background-color: #F5F4FA;
-}
-
-.our-team__title {
-  margin-bottom: 50px;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.1666666667;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
-.our-team__list {
   display: flex;
   flex-wrap: wrap;
 }
@@ -590,7 +581,7 @@ body {
   padding-bottom: 30px;
 }
 
-.our-team__name {
+.our-team__title {
   margin-bottom: 10px;
   font-size: 16px;
   font-weight: 500;
@@ -599,7 +590,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.our-team__prof {
+.our-team__text {
   margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.19;
