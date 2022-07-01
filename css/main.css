@@ -304,15 +304,14 @@ body {
 }
 .contact-form-checkbox:checked + .contact-form-checkbox-label::before {
   border: 2px solid var(--accent-color);
-  background-image: url(../images/modal-checkbox/icon-check-3.svg);
+  background-image: url(../images/modal-checkbox/icon-check.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-origin: border-box;
   background-color: var(--background-accent-color);
 }
 .contact-form-checkbox:focus + .contact-form-checkbox-label::before {
-  border: none;
-  background-image: url(../images/modal-checkbox/icon-check.svg);
+  border: 2px solid var(--accent-color);
 }
 
 .contact-form-checkbox {
